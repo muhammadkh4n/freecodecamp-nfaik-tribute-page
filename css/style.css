@@ -1,0 +1,169 @@
+/* Base styles */
+body {
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  padding: 20px;
+  background-color: #505050;
+}
+
+header img.img-thumbnail {
+  border-radius: 50%;
+  min-width: 170px;
+  max-width: 170px;
+}
+
+header h1 {
+  margin: 30px 0;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+header h1 > small {
+  color: #c3c3c3;
+  font-size: 0.5em;
+}
+
+.divider {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  /*padding: 0;*/
+  background-color: #505050;
+}
+
+.jumbotron #main-photo p {
+  color: white;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font: italic 0.9em Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+.main-content {
+  background-color: #eee;
+}
+
+.main-content h2 {
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.main-content .info {
+  margin: 20px 0;
+}
+
+.main-content #tribute {
+  background-color: #242424;
+  color: #e2e2e2;
+}
+
+.main-content #tribute article p {
+  padding: 10px 15px;
+}
+
+#tribute .img-thumbnail {
+  float: left;
+  border-radius: 50%;
+  padding: 1px;
+  margin: -2px 20px -2px 0;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+#tribute #jeff {
+  background-image: url('https://grcmc.org/images/uploads/img1447686597192-168-1-139.jpg');
+}
+
+#tribute #paul {
+  background-image: url('http://www.brooklynvegan.com/files/img/bp/paul-williams.jpg');
+}
+
+#tribute #derek {
+  background-image: url('http://www.glidemagazine.com/glide/wp-content/uploads/2014/12/Tedeschi-Trucks-12_13_14_251-glide-578x462.jpg');
+}
+
+.well {
+  border-radius: 0;
+}
+
+.well blockquote {
+  border: none;
+  margin: 0;
+}
+
+.well blockquote p {
+  padding: 0 15px;
+  position: relative;
+}
+
+.well blockquote .fa {
+  font-size: 1.8em;
+}
+
+.well blockquote i.fa:first-child {
+  position: relative;
+  left: -10px;
+}
+
+.well blockquote .fa:last-child {
+  position: absolute;
+  bottom: -10px;
+  padding-left: 10px;
+}
+
+#read-more {
+  padding: 20px 0 40px;
+  font-size: 3em;
+}
+
+#read-more a.btn {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.1;
+}
+
+.lead {
+  float: left;
+  line-height: 0.8;
+  font-size: 3em;
+  margin-bottom: 0;
+  color: #656565;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    /*margin-right: -30px;*/
+  }
+
+  .main-content h2 {
+    font-size: 1.8em;
+  }
+
+  header img.img-thumbnail {
+    min-width: 120px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 570px) {
+  header h1 {
+    font-size: 1.6em;
+  }
+}
